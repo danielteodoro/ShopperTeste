@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ECBE0A2291F098FE03B78499141E637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		1A9E760238933675B1A4C9DB5AC62E7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		21662C64A371BDF77972D3EFD57A6252 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD0400A6AB4681E2989E8519CF2A51 /* KeyboardAvoiding.swift */; };
+		3D13D8DFD3982D511ADD55AC81EA4C70 /* Pods-ShopperUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0C4B6E32F26E6BB4F91856D3581E03 /* Pods-ShopperUITests-dummy.m */; };
+		4289A6BA490E261D4AFEBC4797706D6E /* IHKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 878ED9B597213B4B5F42A56E047C99C4 /* IHKeyboardAvoiding-dummy.m */; };
+		A5C7413B85FA913E115E65BDF2EB1957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		A6FEF4BB21D806DA0C03742FC9A5508D /* Pods-ShopperUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B206A21AA79ECB423A7B2200BF6D27E /* Pods-ShopperUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE5D085E4F378C6EA6464A1F1F592F4 /* Pods-Shopper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A0DBC27A170343258E343ED9869349 /* Pods-Shopper-dummy.m */; };
+		C60698127333EE16D7DF8485438EE40E /* Pods-ShopperTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1C588C1CED1C1ED6D8A02A327F803B /* Pods-ShopperTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C90E10351CD6B4E34F101420159DE668 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBE962C67E10ADE4F16A2339E3C628 /* KeyboardDismissingView.swift */; };
+		CD0F8E32179B4E306F4529FED100A848 /* Pods-ShopperTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AD6FCE0C95A3582B27A7E4CA78BD01 /* Pods-ShopperTests-dummy.m */; };
+		D5651937556FCB2352DC8CB340201788 /* Pods-Shopper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B87BE534D84824642651E262B9F8F998 /* Pods-Shopper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7432B2B4518AB5C23C0F1C685467192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		EBA49F55F1E15D22FB191CD55127BC5E /* IHKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD638F842C331671F94B85460AFCF32 /* IHKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCAE1DF3EFDB4FBEC4B7DA3626CB95EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FD2A42AFA41B5D9572114AB21A946C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033B2F5EFC98402794E5FA4A2E42BD9F;
+			remoteInfo = IHKeyboardAvoiding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08640F5CA10CB45C7C028774DC4B13A0 /* Pods-ShopperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		16CA6C6F4CD05B4D94361EBA05EBCAF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B206A21AA79ECB423A7B2200BF6D27E /* Pods-ShopperUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShopperUITests-umbrella.h"; sourceTree = "<group>"; };
+		1BCF5A5A78FD3D088BB861E7A2F4BEC8 /* Pods-ShopperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CBD0400A6AB4681E2989E8519CF2A51 /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = Sources/KeyboardAvoiding.swift; sourceTree = "<group>"; };
+		2372874BC42A38920D70636D08DAC705 /* Pods-Shopper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shopper-resources.sh"; sourceTree = "<group>"; };
+		283F110A826EFB18BDEED0D9C455CBC1 /* Pods-ShopperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopperTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D9ED30883606A7E35017807365A4BED /* Pods-ShopperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F560C77B3CB083A49CD7E3423AC958B /* Pods_ShopperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B31B74A6A32B8AA568DE63519CAEFD /* Pods-Shopper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shopper-frameworks.sh"; sourceTree = "<group>"; };
+		433656D233FE44510310397232C72CA1 /* IHKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IHKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AD6FCE0C95A3582B27A7E4CA78BD01 /* Pods-ShopperTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShopperTests-dummy.m"; sourceTree = "<group>"; };
+		4D2AEF7221795C0B8704C1E32F456037 /* IHKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		4D2CD778A1C61F88F5B47A8F68FBCB3D /* Pods-Shopper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shopper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		567DEE60F994ACC915042CF7503C1D98 /* Pods-Shopper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shopper-acknowledgements.plist"; sourceTree = "<group>"; };
+		58D41FEFE860623035E4EDBCCBF2AAC6 /* Pods_Shopper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shopper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A02B27ADCFD565D4496C5EE5AAAF5EA /* Pods-ShopperTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopperTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5AF44295E820BE52974736209F81273E /* Pods-Shopper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shopper.release.xcconfig"; sourceTree = "<group>"; };
+		5EBED2A9B131E0610B5D7D246EF8226F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		693017BF9B67315A6E8B4894D5045FA9 /* Pods-ShopperUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShopperUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6D3EEA068EAD3F15AD3200C6A56050D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1C588C1CED1C1ED6D8A02A327F803B /* Pods-ShopperTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShopperTests-umbrella.h"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		87323E725417DBF6D6C72E514ACFE2C5 /* Pods-ShopperTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShopperTests-frameworks.sh"; sourceTree = "<group>"; };
+		878ED9B597213B4B5F42A56E047C99C4 /* IHKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		896F3DE2750670585972F4928CF11D19 /* IHKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IHKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		90A0DBC27A170343258E343ED9869349 /* Pods-Shopper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shopper-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A86A96953F65C0DD84CFB9DA93BECB36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFB47BF00673014683D5AE2A53A0B6A /* Pods-ShopperUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShopperUITests-resources.sh"; sourceTree = "<group>"; };
+		AD2804DD616586CA7A838211D68344C1 /* Pods-ShopperUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShopperUITests.modulemap"; sourceTree = "<group>"; };
+		B87BE534D84824642651E262B9F8F998 /* Pods-Shopper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shopper-umbrella.h"; sourceTree = "<group>"; };
+		BD278F27CF722FE097D8BC354D3B51D2 /* IHKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IHKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		C011769843FE488696A52194DB90513D /* Pods-ShopperTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShopperTests.modulemap"; sourceTree = "<group>"; };
+		CB7C2A3C8BDBA5B11F85C2E8222763FC /* Pods-Shopper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shopper.debug.xcconfig"; sourceTree = "<group>"; };
+		CBD638F842C331671F94B85460AFCF32 /* IHKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
+		D2BBE962C67E10ADE4F16A2339E3C628 /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = Sources/KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		D3E0B65921FA98ED765322707F97C79D /* Pods-ShopperTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShopperTests-resources.sh"; sourceTree = "<group>"; };
+		D4DEF901E1CF903F4783176DAD890182 /* Pods-ShopperUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopperUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0560CBE91320F33124B4C3FDCDD66D0 /* Pods-Shopper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shopper.modulemap"; sourceTree = "<group>"; };
+		EA0C4B6E32F26E6BB4F91856D3581E03 /* Pods-ShopperUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShopperUITests-dummy.m"; sourceTree = "<group>"; };
+		F16D4DBC0FBC49D361F6DBDEC16DE472 /* Pods_ShopperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA663CC475BB47B432C66919124C41B /* Pods-ShopperTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShopperTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFB5249C273064BCA6DCD23F121E162E /* Pods-ShopperUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShopperUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05693AFF4D448C5BE2AB854B9B3865A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C7413B85FA913E115E65BDF2EB1957 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058A0F093C8FF3ADEB8C096AC800DABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAE1DF3EFDB4FBEC4B7DA3626CB95EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4908E3F0460E3C9CDA7C3F4AA26EFF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECBE0A2291F098FE03B78499141E637 /* Foundation.framework in Frameworks */,
+				E7432B2B4518AB5C23C0F1C685467192 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7932FA51FA658D7A4F9E407C2413C341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9E760238933675B1A4C9DB5AC62E7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0862FB6A97B7D6E58A02ECC9AD576DB5 /* Pods-ShopperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A86A96953F65C0DD84CFB9DA93BECB36 /* Info.plist */,
+				AD2804DD616586CA7A838211D68344C1 /* Pods-ShopperUITests.modulemap */,
+				FFB5249C273064BCA6DCD23F121E162E /* Pods-ShopperUITests-acknowledgements.markdown */,
+				D4DEF901E1CF903F4783176DAD890182 /* Pods-ShopperUITests-acknowledgements.plist */,
+				EA0C4B6E32F26E6BB4F91856D3581E03 /* Pods-ShopperUITests-dummy.m */,
+				693017BF9B67315A6E8B4894D5045FA9 /* Pods-ShopperUITests-frameworks.sh */,
+				ACFB47BF00673014683D5AE2A53A0B6A /* Pods-ShopperUITests-resources.sh */,
+				1B206A21AA79ECB423A7B2200BF6D27E /* Pods-ShopperUITests-umbrella.h */,
+				1BCF5A5A78FD3D088BB861E7A2F4BEC8 /* Pods-ShopperUITests.debug.xcconfig */,
+				3D9ED30883606A7E35017807365A4BED /* Pods-ShopperUITests.release.xcconfig */,
+			);
+			name = "Pods-ShopperUITests";
+			path = "Target Support Files/Pods-ShopperUITests";
+			sourceTree = "<group>";
+		};
+		2FAD8F6244F4B54C7C1787128A8F2AEA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD278F27CF722FE097D8BC354D3B51D2 /* IHKeyboardAvoiding.modulemap */,
+				896F3DE2750670585972F4928CF11D19 /* IHKeyboardAvoiding.xcconfig */,
+				878ED9B597213B4B5F42A56E047C99C4 /* IHKeyboardAvoiding-dummy.m */,
+				4D2AEF7221795C0B8704C1E32F456037 /* IHKeyboardAvoiding-prefix.pch */,
+				CBD638F842C331671F94B85460AFCF32 /* IHKeyboardAvoiding-umbrella.h */,
+				6D3EEA068EAD3F15AD3200C6A56050D9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IHKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48CE4605401E2AEEF45373EF232EE28F /* Pods-Shopper */ = {
+			isa = PBXGroup;
+			children = (
+				5EBED2A9B131E0610B5D7D246EF8226F /* Info.plist */,
+				E0560CBE91320F33124B4C3FDCDD66D0 /* Pods-Shopper.modulemap */,
+				4D2CD778A1C61F88F5B47A8F68FBCB3D /* Pods-Shopper-acknowledgements.markdown */,
+				567DEE60F994ACC915042CF7503C1D98 /* Pods-Shopper-acknowledgements.plist */,
+				90A0DBC27A170343258E343ED9869349 /* Pods-Shopper-dummy.m */,
+				41B31B74A6A32B8AA568DE63519CAEFD /* Pods-Shopper-frameworks.sh */,
+				2372874BC42A38920D70636D08DAC705 /* Pods-Shopper-resources.sh */,
+				B87BE534D84824642651E262B9F8F998 /* Pods-Shopper-umbrella.h */,
+				CB7C2A3C8BDBA5B11F85C2E8222763FC /* Pods-Shopper.debug.xcconfig */,
+				5AF44295E820BE52974736209F81273E /* Pods-Shopper.release.xcconfig */,
+			);
+			name = "Pods-Shopper";
+			path = "Target Support Files/Pods-Shopper";
+			sourceTree = "<group>";
+		};
+		4B83DE357F7C3C28A1D9B3047606E6B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4DE8D53B477311734E7D76500453813 /* IHKeyboardAvoiding */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4B83DE357F7C3C28A1D9B3047606E6B6 /* Pods */,
+				A23669A6672813FE82A9C7E202A79F03 /* Products */,
+				DA9796CDCE61DC4BC1F6C9B5DBF78EFB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A23669A6672813FE82A9C7E202A79F03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				433656D233FE44510310397232C72CA1 /* IHKeyboardAvoiding.framework */,
+				58D41FEFE860623035E4EDBCCBF2AAC6 /* Pods_Shopper.framework */,
+				3F560C77B3CB083A49CD7E3423AC958B /* Pods_ShopperTests.framework */,
+				F16D4DBC0FBC49D361F6DBDEC16DE472 /* Pods_ShopperUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEBAED6FDC73FC9C53BA8D23DC7D7094 /* Pods-ShopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				16CA6C6F4CD05B4D94361EBA05EBCAF4 /* Info.plist */,
+				C011769843FE488696A52194DB90513D /* Pods-ShopperTests.modulemap */,
+				FFA663CC475BB47B432C66919124C41B /* Pods-ShopperTests-acknowledgements.markdown */,
+				5A02B27ADCFD565D4496C5EE5AAAF5EA /* Pods-ShopperTests-acknowledgements.plist */,
+				48AD6FCE0C95A3582B27A7E4CA78BD01 /* Pods-ShopperTests-dummy.m */,
+				87323E725417DBF6D6C72E514ACFE2C5 /* Pods-ShopperTests-frameworks.sh */,
+				D3E0B65921FA98ED765322707F97C79D /* Pods-ShopperTests-resources.sh */,
+				7B1C588C1CED1C1ED6D8A02A327F803B /* Pods-ShopperTests-umbrella.h */,
+				08640F5CA10CB45C7C028774DC4B13A0 /* Pods-ShopperTests.debug.xcconfig */,
+				283F110A826EFB18BDEED0D9C455CBC1 /* Pods-ShopperTests.release.xcconfig */,
+			);
+			name = "Pods-ShopperTests";
+			path = "Target Support Files/Pods-ShopperTests";
+			sourceTree = "<group>";
+		};
+		C4DE8D53B477311734E7D76500453813 /* IHKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD0400A6AB4681E2989E8519CF2A51 /* KeyboardAvoiding.swift */,
+				D2BBE962C67E10ADE4F16A2339E3C628 /* KeyboardDismissingView.swift */,
+				2FAD8F6244F4B54C7C1787128A8F2AEA /* Support Files */,
+			);
+			path = IHKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		DA9796CDCE61DC4BC1F6C9B5DBF78EFB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48CE4605401E2AEEF45373EF232EE28F /* Pods-Shopper */,
+				BEBAED6FDC73FC9C53BA8D23DC7D7094 /* Pods-ShopperTests */,
+				0862FB6A97B7D6E58A02ECC9AD576DB5 /* Pods-ShopperUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F67B2956AC0722076A160F527CFD39E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FEF4BB21D806DA0C03742FC9A5508D /* Pods-ShopperUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564FCFA1B7930D3C3FFA7589F4C4B673 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA49F55F1E15D22FB191CD55127BC5E /* IHKeyboardAvoiding-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A963E09BCA17820CB1112BF6E21C7E28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5651937556FCB2352DC8CB340201788 /* Pods-Shopper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EDA6D71EE593A0E8D1FFCAFA2EAF4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60698127333EE16D7DF8485438EE40E /* Pods-ShopperTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		033B2F5EFC98402794E5FA4A2E42BD9F /* IHKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B258119BB7B9D52B224581BE8D28E382 /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */;
+			buildPhases = (
+				B888D5387385FB7503B8E94F0019DBA4 /* Sources */,
+				4908E3F0460E3C9CDA7C3F4AA26EFF34 /* Frameworks */,
+				564FCFA1B7930D3C3FFA7589F4C4B673 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IHKeyboardAvoiding;
+			productName = IHKeyboardAvoiding;
+			productReference = 433656D233FE44510310397232C72CA1 /* IHKeyboardAvoiding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19F711CE743BD768FBA34A915B4F9EFA /* Pods-Shopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814536648242B87C8F0A3CC60B8B46A9 /* Build configuration list for PBXNativeTarget "Pods-Shopper" */;
+			buildPhases = (
+				5EF3BD99D4CAED49A15C1E19F8E1E994 /* Sources */,
+				7932FA51FA658D7A4F9E407C2413C341 /* Frameworks */,
+				A963E09BCA17820CB1112BF6E21C7E28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				626C9699AE35AB7BF678723603B88AF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Shopper";
+			productName = "Pods-Shopper";
+			productReference = 58D41FEFE860623035E4EDBCCBF2AAC6 /* Pods_Shopper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30D54C5430BAF56B778316D584F6C705 /* Pods-ShopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BCA8F933B4DA32D3D92886D87F8E76 /* Build configuration list for PBXNativeTarget "Pods-ShopperTests" */;
+			buildPhases = (
+				C3B263B9E71D9A26BCC9B6DAE047F931 /* Sources */,
+				058A0F093C8FF3ADEB8C096AC800DABE /* Frameworks */,
+				E9EDA6D71EE593A0E8D1FFCAFA2EAF4D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ShopperTests";
+			productName = "Pods-ShopperTests";
+			productReference = 3F560C77B3CB083A49CD7E3423AC958B /* Pods_ShopperTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAB1376AB091FBFA408DD8076F1D9BE3 /* Pods-ShopperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604CDA6DBA54B92FD99ED941EF8C5906 /* Build configuration list for PBXNativeTarget "Pods-ShopperUITests" */;
+			buildPhases = (
+				46864B8BA5B89AE148F0ED64F828B37F /* Sources */,
+				05693AFF4D448C5BE2AB854B9B3865A6 /* Frameworks */,
+				3F67B2956AC0722076A160F527CFD39E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ShopperUITests";
+			productName = "Pods-ShopperUITests";
+			productReference = F16D4DBC0FBC49D361F6DBDEC16DE472 /* Pods_ShopperUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A23669A6672813FE82A9C7E202A79F03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033B2F5EFC98402794E5FA4A2E42BD9F /* IHKeyboardAvoiding */,
+				19F711CE743BD768FBA34A915B4F9EFA /* Pods-Shopper */,
+				30D54C5430BAF56B778316D584F6C705 /* Pods-ShopperTests */,
+				FAB1376AB091FBFA408DD8076F1D9BE3 /* Pods-ShopperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46864B8BA5B89AE148F0ED64F828B37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D13D8DFD3982D511ADD55AC81EA4C70 /* Pods-ShopperUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3BD99D4CAED49A15C1E19F8E1E994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE5D085E4F378C6EA6464A1F1F592F4 /* Pods-Shopper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B888D5387385FB7503B8E94F0019DBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4289A6BA490E261D4AFEBC4797706D6E /* IHKeyboardAvoiding-dummy.m in Sources */,
+				21662C64A371BDF77972D3EFD57A6252 /* KeyboardAvoiding.swift in Sources */,
+				C90E10351CD6B4E34F101420159DE668 /* KeyboardDismissingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B263B9E71D9A26BCC9B6DAE047F931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0F8E32179B4E306F4529FED100A848 /* Pods-ShopperTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		626C9699AE35AB7BF678723603B88AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IHKeyboardAvoiding;
+			target = 033B2F5EFC98402794E5FA4A2E42BD9F /* IHKeyboardAvoiding */;
+			targetProxy = 4FD2A42AFA41B5D9572114AB21A946C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A613AD53BF6197AE413BA2806617277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7C2A3C8BDBA5B11F85C2E8222763FC /* Pods-Shopper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shopper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shopper/Pods-Shopper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Shopper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16446A8833F696CAD883AF247010B744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896F3DE2750670585972F4928CF11D19 /* IHKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IHKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2587F7A7DE992BA3DD72665CEF064DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896F3DE2750670585972F4928CF11D19 /* IHKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IHKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75B2F083622EAC3A5F74620F9791DB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9ED30883606A7E35017807365A4BED /* Pods-ShopperUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopperUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopperUITests/Pods-ShopperUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ShopperUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D9435F69CE5B124F6B371561616A401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283F110A826EFB18BDEED0D9C455CBC1 /* Pods-ShopperTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopperTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopperTests/Pods-ShopperTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ShopperTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85FF6734138E477519F1ACBE9A81457A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08640F5CA10CB45C7C028774DC4B13A0 /* Pods-ShopperTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopperTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopperTests/Pods-ShopperTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ShopperTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C176F8175350B7B4ECCF208820C0BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BCF5A5A78FD3D088BB861E7A2F4BEC8 /* Pods-ShopperUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopperUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopperUITests/Pods-ShopperUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ShopperUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9B3EFF14FE8C8637D5C36C2F66EC5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE2EEA0A9E6D7A3E80261DE507236A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF44295E820BE52974736209F81273E /* Pods-Shopper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shopper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shopper/Pods-Shopper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Shopper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCB01648D25CB94A09A225F710948CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB01648D25CB94A09A225F710948CB4 /* Debug */,
+				A9B3EFF14FE8C8637D5C36C2F66EC5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604CDA6DBA54B92FD99ED941EF8C5906 /* Build configuration list for PBXNativeTarget "Pods-ShopperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C176F8175350B7B4ECCF208820C0BC6 /* Debug */,
+				75B2F083622EAC3A5F74620F9791DB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814536648242B87C8F0A3CC60B8B46A9 /* Build configuration list for PBXNativeTarget "Pods-Shopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A613AD53BF6197AE413BA2806617277 /* Debug */,
+				AE2EEA0A9E6D7A3E80261DE507236A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0BCA8F933B4DA32D3D92886D87F8E76 /* Build configuration list for PBXNativeTarget "Pods-ShopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FF6734138E477519F1ACBE9A81457A /* Debug */,
+				7D9435F69CE5B124F6B371561616A401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B258119BB7B9D52B224581BE8D28E382 /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2587F7A7DE992BA3DD72665CEF064DBF /* Debug */,
+				16446A8833F696CAD883AF247010B744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
